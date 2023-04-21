@@ -63,7 +63,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-    'https://django-rest-module.herokuapp.com/',
+    'django-rest-module.herokuapp.com/',
     'localhost',
 ]
 
