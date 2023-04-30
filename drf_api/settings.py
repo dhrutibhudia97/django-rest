@@ -65,7 +65,8 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     'django-rest-module.herokuapp.com/',
     'localhost',
-    '.herokuapp.com'
+    '.herokuapp.com',
+    os.environ.get('ALLOWED_HOST'),
 ]
 
 
